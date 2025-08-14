@@ -44,7 +44,7 @@ body {
 .shape-1 {
   width: 300px;
   height: 300px;
-  background: linear-gradient(135deg, #635BFF40, #8B7EFF30);
+  background: linear-gradient(135deg, #635bff40, #8b7eff30);
   top: 10%;
   left: -10%;
   animation-delay: 0s;
@@ -53,7 +53,7 @@ body {
 .shape-2 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(135deg, #4CAF5040, #66BB6A30);
+  background: linear-gradient(135deg, #4caf5040, #66bb6a30);
   top: 60%;
   right: -5%;
   animation-delay: 2s;
@@ -62,7 +62,7 @@ body {
 .shape-3 {
   width: 150px;
   height: 150px;
-  background: linear-gradient(135deg, #FF980040, #FFB74D30);
+  background: linear-gradient(135deg, #ff980040, #ffb74d30);
   bottom: 20%;
   left: 20%;
   animation-delay: 4s;
@@ -96,10 +96,10 @@ body {
   font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 3px;
-  color: #635BFF;
+  color: #635bff;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  background: linear-gradient(135deg, #635BFF, #8B7EFF);
+  background: linear-gradient(135deg, #635bff, #8b7eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -154,7 +154,7 @@ body {
 .profile-title {
   font-size: clamp(1.2rem, 3vw, 1.8rem);
   font-weight: 600;
-  color: #635BFF;
+  color: #635bff;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -190,7 +190,7 @@ body {
 }
 
 .metric-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -267,13 +267,13 @@ body {
 }
 
 .skill-badge-artistic::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #635BFF, #4CAF50);
+  background: linear-gradient(135deg, #635bff, #4caf50);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -293,7 +293,7 @@ body {
 }
 
 .whatsapp-artistic-btn {
-  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
   border: none;
   color: white;
   padding: 1.2rem 2.5rem;
@@ -311,7 +311,7 @@ body {
 }
 
 .whatsapp-artistic-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -349,7 +349,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: #635BFF;
+  background: #635bff;
   border-radius: 50%;
   animation: floatDot 4s ease-in-out infinite;
 }
@@ -364,19 +364,20 @@ body {
   bottom: 30%;
   left: 15%;
   animation-delay: 1.5s;
-  background: #4CAF50;
+  background: #4caf50;
 }
 
 .dot-3 {
   top: 60%;
   right: 10%;
   animation-delay: 3s;
-  background: #FF9800;
+  background: #ff9800;
 }
 
 /* Animaciones */
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
   50% {
@@ -385,7 +386,8 @@ body {
 }
 
 @keyframes morphing {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
   25% {
@@ -400,7 +402,8 @@ body {
 }
 
 @keyframes floatDot {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
     opacity: 0.7;
   }
@@ -465,7 +468,9 @@ body {
     justify-content: center;
   }
 
-  .shape-1, .shape-2, .shape-3 {
+  .shape-1,
+  .shape-2,
+  .shape-3 {
     width: 150px;
     height: 150px;
   }
@@ -503,7 +508,7 @@ body {
   align-items: center;
   height: 100vh;
   font-size: 1.2rem;
-  color: #635BFF;
+  color: #635bff;
 }
 
 .error-message {
